@@ -1,0 +1,136 @@
+.main-home {
+    background-image: url(../../images/backgrounds/bg01.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.home-block {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-block>h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 63px;
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home-block>h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 130px;
+    font-style: normal;
+}
+
+.color1 {
+    color: #ed421c;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.home-block>h4 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #ed421c;
+    padding: 15px 50px;
+    color: #ffffff;
+    background-color: #ed421c;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.button:hover {
+    opacity: 0.8;
+    transition: .2s linear;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section_header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.section_suptitle {
+    font-size: 45px;
+    color: #ed421c;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.section_title {
+    font-size: 60px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.section_title1 {
+    font-size: 60px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.image {
+    background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-title-img.png);
+    background-repeat: no-repeat;
+    margin: 5px auto;
+}
+
+.section_text {
+    size: 70px;
+    color: #434f53;
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.42857143;
+}
+
+.section {
+    width: 100%;
+    background-image: url(../images/bg02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 350px;
+    height: 350px;
+    background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-img01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    width: 330px;
+    height: 330px;
+    background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-img02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 80%;
+    top: 144%;
+}

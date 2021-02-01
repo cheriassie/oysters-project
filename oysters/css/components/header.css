@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 3px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right, black, 70%, transparent);
+}
+
+.logo img {
+    width: 130px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin-left: 32px;
+}
+
+.nav_link:hover {
+    color: #ed421c;
+    transition: color .1s linear;
+}
+
+.links {
+    margin-left: 10px;
+}
+
+.links>a {
+    font-size: smaller;
+    color: white;
+}
+
+.call-me {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 1320px;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-me img {
+    width: 50%;
+    height: 50%;
+}
+
+.call-me img:hover {
+    opacity: 0.6;
+    transition: .1s linear;
+}
