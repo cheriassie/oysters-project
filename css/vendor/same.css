@@ -1,5 +1,4 @@
 .container {
-    padding-top: 8%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -8,4 +7,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.section-padding {
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
