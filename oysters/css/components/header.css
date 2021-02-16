@@ -3,9 +3,6 @@
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    padding-left: 9%;
-    padding-right: 9%;
-    padding-top: 3px;
     position: absolute;
     right: 0;
     left: 0;
@@ -45,11 +42,14 @@
     background-color: white;
     border-radius: 50%;
     position: fixed;
-    right: 1320px;
+    left: 25px;
     bottom: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
+    color: #ed421c;
+    box-shadow: 0 4px 10px 0 rgba(46,58,70,0.35);
 }
 
 .call-me img {

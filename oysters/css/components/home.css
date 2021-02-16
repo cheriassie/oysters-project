@@ -6,7 +6,6 @@
     justify-content: center;
     background-size: cover;
     background-position: left bottom;
-    background-repeat: no-repeat;
 }
 
 .home-block {
@@ -96,41 +95,80 @@
 }
 
 .section_text {
-    size: 70px;
     color: #434f53;
     text-align: left;
     font-size: 17px;
-    line-height: 1.42857143;
+    width: 90%;
 }
 
-.section {
-    width: 100%;
-    background-image: url(../images/bg02.png);
+.section_text p:first-child {
+    margin: 30px 0;
+}
+
+.section-about {
+    display: flex;
+    background-image: url(../../images/backgrounds/bg02.png);
+    padding-left: 20%;
+}
+
+.section-block {
+    width: 45%;
+}
+
+.section-block:last-child {
+    display: flex;
+}
+
+.section-block img {
+    width: 60%;
+}
+
+.section-block img:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.section-block img:last-child {
+    margin-top: 20px;
+}
+
+.shrimp {
+    background-image: url(../../images/backgrounds/bg03.jpg);
+    height: 400px;
     background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.box {
-    width: 350px;
-    height: 350px;
-    background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-img01.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    display: flex;
 }
 
-.box1 {
-    width: 330px;
-    height: 330px;
-    background-image: url(https://template79399.motopreview.com/mt-demo/79300/79399/mt-content/uploads/2019/03/mt-1791-img02.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.description {
+    background-color: black;
+    width: 600px;
+    height: 280px;
+    border: 3px white solid;
+    color: white;
     position: absolute;
-    left: 80%;
-    top: 144%;
+    top: 20%;
+    right: 10%;
+    padding: 40px;
+    opacity: 0.7;
+}
+
+.description>h3 {
+    font-size: 58px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #ed421c;
+    padding: 15px 50px;
+    color: #ffffff;
+    background-color: #ed421c;
+    margin-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }

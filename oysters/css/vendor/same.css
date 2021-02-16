@@ -1,5 +1,4 @@
 .container {
-    padding-top: 8%;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -8,4 +7,33 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-padding {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.section-top {
+    text-align: center;
+}
+
+.section-top>h3 {
+    font-size: 45px;
+    color: #ed421c;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.section-top>h2 {
+    font-size: 60px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.template-item {
+    width: calc(100%/4-2%);
+    text-align: center;
 }
