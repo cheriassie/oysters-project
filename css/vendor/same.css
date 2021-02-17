@@ -34,6 +34,6 @@
 }
 
 .template-item {
-    width: calc(100%/4-2%);
+    width: calc(100% / 4 - 2%);
     text-align: center;
 }
