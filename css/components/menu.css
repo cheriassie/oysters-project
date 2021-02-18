@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 150px;
+    padding: 10px 190px;
 }
 
 .menu-choise>h3 {
@@ -21,4 +21,50 @@
 
 .menu-block:first-child {
     display: flex;
+}
+
+.reviews {
+    background-image: url(../../images/backgrounds/bg08.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-details {
+    background-color: black;
+    width: 490px;
+    height: 170px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background: rgba(0, 0, 0, .6);
+    border: 2px white solid;
+    text-align: center;
+    padding: 80px;
+}
+
+.reviews-details>h3 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.option-item {
+    width: calc(100%/3 -2%);
+    border-top: 2px white solid;
+    padding: 20px 30px;
 }

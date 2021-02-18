@@ -31,6 +31,7 @@
 .benefits-block {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .benefits-block>p {
