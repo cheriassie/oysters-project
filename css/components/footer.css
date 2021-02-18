@@ -1,51 +1,58 @@
-.footer {
-    background-color: black;
-}
-
-.footer-item {
-    width: calc(100% / 3 - 2%);
-}
-
-.footer-item>p {
-    color: white;
-    font-weight: 300;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    text-align: left;
-}
-
-.footer-item>p>i {
-    color: #ed421c;
-}
-
-.icon-footer>a {
-    color: #4f3f39;
-    background-color: white;
-    border-radius: 50%;
-    border-color: transparent;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    font-size: 16px;
-}
-
-.footer-text>p {
-    color: white;
-    font-weight: 300;
-    font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 13px;
-    text-align: center;
-    margin-top: 100px;
-    padding: 10px;
-}
-
-.footer-text {
-    border-top: 0.6px solid white;
-    margin-top: 90px;
-}
+    .footer {
+        background-color: black;
+        padding-top: 40px;
+    }
+    
+    .footer-item {
+        width: calc(100% / 3 - 2%);
+        text-align: left;
+        line-height: 1.5;
+    }
+    
+    .link-list {
+        color: white;
+        font-weight: 300;
+        font-style: normal;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    .footer-item>.link-list>.i {
+        color: #ed421c;
+    }
+    
+    .icon-footer>a {
+        color: #4f3f39;
+        background-color: white;
+        border-radius: 50%;
+        border-color: transparent;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .footer-text>p {
+        color: white;
+        font-weight: 300;
+        font-style: normal;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 13px;
+    }
+    
+    .footer-text {
+        margin-top: 70px;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #fff;
+    }
+    
+    .wrap.icons {
+        justify-content: flex-start;
+    }

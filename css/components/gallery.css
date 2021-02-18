@@ -1,7 +1,6 @@
 .gallery-item {
     width: calc(100% / 3 - 2%);
     position: relative;
-    cursor: pointer;
 }
 
 .gallery-item>img {
@@ -35,4 +34,30 @@
     font-family: 'Bebas Neue', cursive;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.gallery-hover {
+    background-color: #ed421c;
+    color: white;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-item:hover .gallery-hover {
+    opacity: 0.8;
+}
+
+.gallery-hover {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-weight: bold;
 }

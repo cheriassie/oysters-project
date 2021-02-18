@@ -5,6 +5,10 @@
     padding: 10px 190px;
 }
 
+.menu-choise>h3:hover {
+    color: #ed421c;
+}
+
 .menu-choise>h3 {
     width: calc(100% / 4 - 2%);
     text-align: center;
@@ -16,11 +20,66 @@
 }
 
 .menu-details {
-    width: 40%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.menu-block:first-child {
+.menu-content>p {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-content {
+    /* width: calc(100% / 2 - 2%); */
+    width: 45%;
+}
+
+.menu-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-content img {
+    width: 40%;
+    margin: 20px;
+}
+
+.menu-content>.test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 27px;
+}
+
+.test>h3 {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+    font-size: 16px;
+}
+
+.test>h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+    font-size: 16px;
+}
+
+.test>p {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ed421c;
+    font-size: 18px;
 }
 
 .reviews {
@@ -66,5 +125,6 @@
 .option-item {
     width: calc(100%/3 -2%);
     border-top: 2px white solid;
-    padding: 20px 30px;
+    padding: 10px;
+    margin: 50px;
 }
