@@ -1,0 +1,115 @@
+.section-offer {
+    display: flex;
+    background-image: url(../../images/backgrounds/bg06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.offer-block {
+    width: 45%;
+}
+
+.offer-block:first-child {
+    display: flex;
+}
+
+.offer-block img:first-child {
+    margin-top: 30px;
+}
+
+.offer-block img:last-child {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.offer-block>.offer-img {
+    width: 45%;
+    height: 80%;
+}
+
+.offer-top>h3 {
+    font-size: 45px;
+    color: #ed421c;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 2%;
+}
+
+.offer-top>h2 {
+    font-size: 60px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+}
+
+.offer-block:last-child {
+    margin-left: 5%;
+}
+
+.offer-text {
+    text-align: left;
+    font-size: 17px;
+    width: 90%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+    line-height: 1.4;
+    flex-direction: column;
+    display: flex;
+}
+
+.slider-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    color: #010101;
+    font-size: 16px;
+    padding: 20px 0;
+    border-bottom: 8px solid #cfcfcf;
+    position: relative;
+}
+
+.slider-text.active::before {
+    content: "";
+    display: block;
+    width: 590px;
+    height: 8px;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    z-index: 1;
+    background-color: #ed421c;
+}
+
+.score {
+    background: url(../../images/backgrounds/bg07.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.score-item>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.score-info>H3 {
+    font-size: 46px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+}
+
+.score-info>p {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}

@@ -51,10 +51,11 @@
     margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    z-index: 1;
 }
 
 .button:hover {
-    opacity: 0.8;
+    opacity: 0.3;
     transition: .2s linear;
 }
 
