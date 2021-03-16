@@ -31,6 +31,10 @@
     margin-left: 10px;
 }
 
+.mobile-bar.fas {
+    display: none;
+}
+
 .links>a {
     font-size: smaller;
     color: white;

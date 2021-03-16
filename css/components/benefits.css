@@ -1,5 +1,5 @@
 .benefits {
-    height: 500px;
+    height: 100%;
 }
 
 .benefits-details {
@@ -68,7 +68,6 @@
     text-align: center;
     background-color: #ed421c;
     border-radius: 50%;
-    display: block;
     justify-content: center;
     align-items: center;
     margin: auto;

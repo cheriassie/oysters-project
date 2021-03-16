@@ -1,0 +1,135 @@
+    @media (max-width: 768px) {
+        .nav {
+            display: none;
+        }
+        .mobile-bar.fas {
+            color: white;
+            display: block;
+        }
+        .section-about {
+            padding-right: 10%;
+            padding-left: 10%;
+        }
+        .section-block img {
+            width: 60%;
+            height: 70%;
+        }
+        .shrimp {
+            max-width: 100%;
+        }
+        .description {
+            padding-left: 0%;
+            width: 70%;
+            top: 3%;
+        }
+        .description>h3 {
+            font-size: 42px;
+        }
+        .benefits-details {
+            width: 100%;
+        }
+        .benefits-block {
+            width: 40%;
+            height: 30%;
+        }
+        .benefits-content>h3 {
+            width: 30%;
+            height: 20%;
+        }
+        .icons>a {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            margin-left: 6px;
+        }
+        .search-block {
+            height: 90%;
+        }
+        .section-offer {
+            max-width: 100%;
+        }
+        .offer-text {
+            width: fit-content;
+        }
+        .slider-text.active::before {
+            width: 90%;
+        }
+        .menu-choise {
+            padding: 10px 7px;
+        }
+        .menu-content img {
+            width: 50%;
+            height: 60%;
+        }
+        .icon-footer>a {
+            padding: 0px;
+        }
+        .template-item {
+            width: calc(100%/2 -2%);
+        }
+        .counter-block {
+            max-width: 100%;
+            margin: 0, auto;
+            margin-left: 0;
+        }
+    }
+    
+    @media (max-width: 563px) {
+        .template-item {
+            width: 100%;
+        }
+        .main-home {
+            width: 70%;
+        }
+        .home-block>h2 {
+            font-size: 43px;
+        }
+        .home-block>h1 {
+            font-size: 90px;
+        }
+        .section-top>h3 {
+            font-size: 30px;
+        }
+        .section-top>h2 {
+            font-size: 40px;
+        }
+        .section_suptitle {
+            font-size: 30px;
+        }
+        .section_title {
+            font-size: 40px;
+        }
+        .section_title1 {
+            font-size: 40px;
+        }
+        .section-block img {
+            width: 50%;
+            height: 50%;
+        }
+        .team-item {
+            width: 60%;
+            align-items: center;
+            margin: 10px
+        }
+        .search-block {
+            margin-right: 3%;
+            left: 0%;
+        }
+        .offer-block {
+            width: calc(100%/2 -2%);
+        }
+        .offer-block>.offer-img {
+            width: 50%;
+            height: 50%;
+        }
+        .reviews-details {
+            width: 65%;
+            left: 2%;
+        }
+        .gallery-item>img {
+            width: 60%;
+        }
+        .footer {
+            width: calc(100%/3-2%);
+        }
+    }
